@@ -60,8 +60,9 @@ function resetState() {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild)
     }
 }
+//Error
 //Setting the results
-function showResults(){
+/*function showResults(){
     var gameOver = "<h1>Result</h1>",
     gameOverHtml += "<h2 id='score'> Your Scores: " + quiz.score + "</h2>";
 
@@ -86,8 +87,9 @@ resultContainer.innerHTML = '${numCorrect} out of ${questions.length}';
 }
 
 
+
 //show result
-nextButton.addEventListener('click', showResults);
+nextButton.addEventListener('click', showResults); */
 
 
 function selectAnswer(e){
